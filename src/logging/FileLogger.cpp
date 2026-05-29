@@ -1,5 +1,6 @@
 #include "FileLogger.hpp"
 #include <fstream>
+#include <sstream>
 #include <iomanip>
 #include <chrono>
 
