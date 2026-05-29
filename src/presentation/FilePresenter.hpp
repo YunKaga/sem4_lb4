@@ -3,7 +3,7 @@
 
 #include "IPresenter.hpp"
 
-class MUSIC_API FilePresenter : public IPresenter {
+class FilePresenter : public IPresenter {
 private:
   std::string _filename;
 

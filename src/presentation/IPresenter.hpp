@@ -2,12 +2,11 @@
 #define IPRESENTER_HPP
 
 #include <string>
-#include "MusicLibraryAPI.hpp"
 
 class MusicalComposition;
 class MusicDisk;
 
-class MUSIC_API IPresenter {
+class IPresenter {
 public:
   virtual ~IPresenter() = default;
 
